@@ -37,7 +37,7 @@ export const getMessages = async (req, res) => {
 
 export const sendMessage = async (req, res) => {
   try {
-    const { text, image } = req.body;
+    const { text, image } = req.body;  //this is what the user sends from the frontend
     const { id: receiverId } = req.params;
     const senderId = req.user._id;
 

@@ -46,9 +46,9 @@ const ProfilePage = () => {
                   bg-base-content hover:scale-105
                   p-2 rounded-full cursor-pointer 
                   transition-all duration-200
-                  ${isUpdatingProfile ? "animate-pulse pointer-events-none" : ""}
-                `}
-              >
+                  ${isUpdatingProfile ? "animate-pulse pointer-events-none" : ""}  
+                `} 
+              >  {/*animate pulse er through te disable kora holo jokhon upload hote thakbe  */}
                 <Camera className="w-5 h-5 text-base-200" />
                 <input
                   type="file"

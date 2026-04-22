@@ -4,7 +4,7 @@ import bcrypt from "bcryptjs";
 import cloudinary from "../lib/cloudinary.js";
 
 export const signup = async (req, res) => {
-  const { fullName, email, password } = req.body;
+  const { fullName, email, password } = req.body;  //this is how recive the data of user inputed
   try {
     if (!fullName || !email || !password) {
       return res.status(400).json({ message: "All fields are required" });
@@ -48,7 +48,7 @@ export const signup = async (req, res) => {
 };
 
 export const login = async (req, res) => {
-  const { email, password } = req.body;
+  const { email, password } = req.body;  //login e shudhu user email and password send korbe 
   try {
     const user = await User.findOne({ email });
 
@@ -56,7 +56,7 @@ export const login = async (req, res) => {
       return res.status(400).json({ message: "Invalid credentials" });
     }
 
-    const isPasswordCorrect = await bcrypt.compare(password, user.password);
+    const isPasswordCorrect = await bcrypt.compare(password, user.password);  //1st one is user just send and other one is save in the database //so compare both
     if (!isPasswordCorrect) {
       return res.status(400).json({ message: "Invalid credentials" });
     }

@@ -13,7 +13,7 @@ const LoginPage = () => {
   const { login, isLoggingIn } = useAuthStore();
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault(); //eitar through te form submit korar por o page refresh hobe na
     login(formData);
   };
 

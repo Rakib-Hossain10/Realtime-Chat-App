@@ -41,7 +41,7 @@ export const useChatStore = create((set, get) => ({
         `/messages/send/${selectedUser._id}`,
         messageData
       );
-      set({ messages: [...messages, res.data] });
+      set({ messages: [...messages, res.data] });   // Append the new message with the all existing messages
     } catch (error) {
       toast.error(error.response.data.message);
     }

@@ -18,7 +18,7 @@ const userSchema = new mongoose.Schema(
     },
     profilePic: {
       type: String,
-      default: "",
+      default: "",  //eitar mane profile pic  dile o cholbe na dile o cholbe 
     },
   },
   { timestamps: true }

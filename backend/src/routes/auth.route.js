@@ -8,8 +8,8 @@ router.post("/signup", signup);
 router.post("/login", login);
 router.post("/logout", logout);
 
-router.put("/update-profile", protectRoute, updateProfile);
+router.put("/update-profile", protectRoute, updateProfile);  //why use put bcz: i am updating something   //first check that user is loged in then call next function
 
-router.get("/check", protectRoute, checkAuth);
+router.get("/check", protectRoute, checkAuth); 
 
 export default router;

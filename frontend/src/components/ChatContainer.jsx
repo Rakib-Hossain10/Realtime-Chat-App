@@ -30,7 +30,7 @@ const ChatContainer = () => {
     subscribeToMessages();
 
     return () => unsubscribeFromMessages();
-  }, [selectedUser._id, getMessages]);
+  }, [selectedUser._id, getMessages]);  //when the selected user id will change i would like to run this useEffect
 
   useEffect(() => {
     // Auto scroll to the latest message

@@ -20,7 +20,7 @@ const App = () => {
 
   console.log({ onlineUsers });
 
-  useEffect(() => {
+  useEffect(() => {  //i am calling useEffect as sonn as my app will start it will check if the user is authenticated or not by calling the checkAuth function 
     checkAuth();
   }, [checkAuth]);
 
