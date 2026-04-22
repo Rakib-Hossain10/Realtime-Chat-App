@@ -142,11 +142,10 @@ SafeLink demonstrates strong practical skills in:
 
 This project reflects both **technical implementation ability** and **product thinking**, especially around building software for real-world safety use cases.
 
----
 
-## Frontend Dependencies
 
-```json
+#Frontend Dependencies
+
 {
   "axios": "^1.7.7",
   "chat-app": "file:..",
@@ -161,7 +160,7 @@ This project reflects both **technical implementation ability** and **product th
 }
 
 
-## Backend Dependencies
+#Backend Dependencies
 {
   "bcryptjs": "^2.4.3",
   "chat-app": "file:..",
