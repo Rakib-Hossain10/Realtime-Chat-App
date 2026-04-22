@@ -146,6 +146,7 @@ This project reflects both **technical implementation ability** and **product th
 
 #Frontend Dependencies
 
+```json
 {
   "axios": "^1.7.7",
   "chat-app": "file:..",
@@ -210,21 +211,6 @@ Start frontend->
 cd frontend
 npm run dev
 
-
-Folder Structure
-
-SafeLink/
-│
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-├── backend/
-│   ├── src/
-│   └── package.json
-│
-└── README.md
 
 
 
