@@ -144,48 +144,6 @@ This project reflects both **technical implementation ability** and **product th
 
 
 
-#Frontend Dependencies
-
-```json
-{
-  "axios": "^1.7.7",
-  "chat-app": "file:..",
-  "lucide-react": "^0.459.0",
-  "react": "^18.3.1",
-  "react-dom": "^18.3.1",
-  "react-hot-toast": "^2.5.2",
-  "react-router-dom": "^6.30.1",
-  "socket.io": "^4.8.1",
-  "socket.io-client": "^4.8.1",
-  "zustand": "^5.0.1"
-}
-
-
-#Backend Dependencies
-{
-  "bcryptjs": "^2.4.3",
-  "chat-app": "file:..",
-  "cloudinary": "^2.5.1",
-  "cookie-parser": "^1.4.7",
-  "cors": "^2.8.5",
-  "dotenv": "^16.4.5",
-  "express": "^4.21.1",
-  "jsonwebtoken": "^9.0.2",
-  "mongoose": "^8.8.1",
-  "node-fetch": "^2.7.0",
-  "socket.io": "^4.8.1",
-  "socket.io-client": "^4.8.1"
-}
-
-
-
-Backend Dev Dependencies
-{
-  "nodemon": "^3.1.7"
-}
-
-
-
 Installation
 
 1. Clone the repository
@@ -223,5 +181,3 @@ Here is the output:
 ![Project Result 1](result_images/3.png)
 
 ![Project Result 1](result_images/4.png)
-
-
